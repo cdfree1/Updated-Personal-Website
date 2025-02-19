@@ -12,20 +12,20 @@ export default function Resume () {
         <div className="grid grid-rows-[auto_1fr_20px] min-h-screen p-4 pb-20 sm:p-10 font-[family-name:var(--font-geist-sans)]">
             <Navbar />
             <main className="flex flex-col items-center justify-items-center gap-8 row-start-2 items-center sm:items-start">
-                <div className="flex flex-col items-center space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 justify-center">
+                <div className="flex space-x-1 justify-center">
                     <AnimatePresence>
                         {"Download My Resume".split('').map((char, i) => (
-                            <motion.p
+                            <motion.span
                             ref={ref}
                             key={i}
                             initial={{ opacity: 0, y: 10 }}
                             animate={isInView ? { opacity: 1, y: 0 } : {}}
                             exit="hidden"
                             transition={{ duration: 0.5, delay: i * 0.01 }}
-                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem]"
-                            >
+                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem] inline-block"
+                          >
                             {char === ' ' ? <span>&nbsp;</span> : char}
-                            </motion.p>  
+                          </motion.span>  
                         ))}
                     </AnimatePresence>
                 </div>

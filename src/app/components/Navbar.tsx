@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="flex-auto flex justify-center gap-2 md:gap-4 lg:gap-6">
                 <a href="http://www.cdfree.dev" className="text-white no-underline text-center p-2 text-sm md:text-base lg:text-lg transition-all duration-300 ease-in-out hover:bg-gray-300 hover:text-black rounded-md">Home</a>
                 <a href="http://www.cdfree.dev/projects"  className="text-white no-underline text-center p-2 text-sm md:text-base lg:text-lg transition-all duration-300 ease-in-out hover:bg-gray-300 hover:text-black rounded-md">Projects</a>
-                <a href="http://www.cdfree.dev/resume" className="text-white no-underline text-center p-2 text-sm md:text-base lg:text-lg transition-all duration-300 ease-in-out hover:bg-gray-300 hover:text-black rounded-md">Resume</a>
+                <a href="http://localhost:3000/resume" className="text-white no-underline text-center p-2 text-sm md:text-base lg:text-lg transition-all duration-300 ease-in-out hover:bg-gray-300 hover:text-black rounded-md">Resume</a>
             </div>
         </nav>
     );
