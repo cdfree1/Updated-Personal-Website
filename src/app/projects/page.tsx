@@ -38,18 +38,22 @@ export default function Projects() {
                         </motion.p>
                     </AnimatePresence>
                 </div>
-                <a href="https://bookly-ai.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full -z-10">
-                    <motion.img
-                        ref={ref}
-                        initial={{ opacity: 0, y: -105 }}
-                        key="BooklyAI Logo"
-                        src="Bookly-AI.png"
-                        animate={isInView ? { opacity: 1, y: 10 } : {}}
-                        exit="hidden"
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="w-full max-w-md mt-4 mx-auto "
-                    />
-                </a>
+                <motion.div
+                    ref={ref}
+                    initial={{ opacity: 0, y: -105 }}
+                    animate={isInView ? { opacity: 1, y: 10 } : {}}
+                    exit="hidden"
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    className="w-full max-w-md mt-4 mx-auto"
+                >
+                    <a href="https://bookly-ai.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center w-full -z-10">
+                        <img
+                            key="BooklyAI Logo"
+                            src="Bookly-AI.png"
+                            className="w-full"
+                        />
+                    </a>
+                </motion.div>
             </main>
         </div>
     );
