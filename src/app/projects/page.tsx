@@ -43,7 +43,7 @@ export default function Projects() {
                         ref={ref}
                         initial={{ opacity: 0, y: -105 }}
                         key="BooklyAI Logo"
-                        src="Bookly-Ai.png"
+                        src="Bookly-AI.png"
                         animate={isInView ? { opacity: 1, y: 10 } : {}}
                         exit="hidden"
                         transition={{ duration: 0.5, delay: 0.2 }}
