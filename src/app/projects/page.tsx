@@ -21,7 +21,7 @@ export default function Projects() {
                             animate={isInView ? { opacity: 1, x: 0 } : {}}
                             exit="hidden"
                             transition={{ duration: 0.5 }}
-                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem]"
+                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem] text-black dark:text-white"
                         >
                             BooklyAI
                         </motion.h1>
@@ -32,7 +32,7 @@ export default function Projects() {
                             animate={isInView ? { opacity: 1, x: 0 } : {}}
                             exit="hidden"
                             transition={{ duration: 0.5, delay: 0.1 }}
-                            className="text-base text-center sm:text-lg md:text-xl md:leading-6 mt-4"
+                            className="text-base text-center sm:text-lg md:text-xl md:leading-6 mt-4 text-black dark:text-white"
                         >
                             An AI tool which allows the user to identify and generate a description of a book by taking a photo of it. <span className="text-yellow-500">Click the logo and try it out!</span>
                         </motion.p>

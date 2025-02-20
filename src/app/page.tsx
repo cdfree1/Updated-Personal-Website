@@ -23,7 +23,7 @@ export default function Home() {
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           exit="hidden"
           transition={{ duration: 0.5, delay: i * 0.1 }}
-          className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem]"
+          className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem] text-black dark:text-white"
           >
           {char === ' ' ? <span>&nbsp;</span> : char}
           </motion.p>  
@@ -37,7 +37,7 @@ export default function Home() {
           initial={{ y: 25, opacity: 0 }}
           animate={isInView ? { y: 0, opacity: 1 } : {}}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="text-center sm:text-2xl font-bold tracking-tighter md:text-4xl md:leading-[3rem]"
+          className="text-center sm:text-2xl font-bold tracking-tighter md:text-4xl md:leading-[3rem] text-black dark:text-white"
         >
           Scroll Down <span className="text-yellow-500">↓</span>
         </motion.p>
@@ -49,7 +49,7 @@ export default function Home() {
       <div className="pt-[100vh]"></div>
       <div className="p-12 pt-28 text-center sm:pt-60">
       <header className="mb-8">
-        <img src="headshot.jpg" alt="Caleb Free" className="w-72 h-72 rounded-full object-cover border-2 border-white mx-auto"/>
+        <img src="headshot.jpg" alt="Caleb Free" className="w-72 h-72 rounded-full object-cover border-2 mx-auto border-black dark:border-white"/>
       </header>
       <div>
         <p className="text-2xl mb-8">
@@ -61,9 +61,9 @@ export default function Home() {
         <h2 className="text-2xl mb-4 text-center">Contact Me</h2>
         <div className="flex justify-center gap-5 mt-5">
         <a href="mailto:calebdfree@gmail.com" aria-label="Email" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faEnvelope} /></a>
-        <a href="https://www.linkedin.com/in/caleb-free/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faLinkedin}/></a>
-        <a href="https://www.instagram.com/caleb_free3.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faInstagram}/></a>
-        <a href="https://github.com/cdfree1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href="https://www.linkedin.com/in/caleb-free/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl text-black dark:text-white hover:text-yellow-500"><FontAwesomeIcon icon={faLinkedin}/></a>
+        <a href="https://www.instagram.com/caleb_free3.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl text-black dark:text-white hover:text-yellow-500"><FontAwesomeIcon icon={faInstagram}/></a>
+        <a href="https://github.com/cdfree1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl text-black dark:text-white hover:text-yellow-500"><FontAwesomeIcon icon={faGithub} /></a>
         </div>
       </div>
       </div>

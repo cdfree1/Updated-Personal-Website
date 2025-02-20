@@ -22,7 +22,7 @@ export default function Resume () {
                             animate={isInView ? { opacity: 1, y: 0 } : {}}
                             exit="hidden"
                             transition={{ duration: 0.5, delay: i * 0.01 }}
-                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem] inline-block"
+                            className="text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem] inline-block text-black dark:text-white"
                           >
                             {char === ' ' ? <span>&nbsp;</span> : char}
                           </motion.span>  
