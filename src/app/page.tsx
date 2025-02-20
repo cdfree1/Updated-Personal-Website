@@ -60,10 +60,10 @@ export default function Home() {
       <div id="contact" className="py-24 px-5 text-white">
         <h2 className="text-2xl mb-4 text-center">Contact Me</h2>
         <div className="flex justify-center gap-5 mt-5">
-        <a href="mailto:calebdfree@gmail.com" aria-label="Email" className="text-2xl text-white hover:text-yellow-500"><FontAwesomeIcon icon={faEnvelope} /></a>
-        <a href="https://www.linkedin.com/in/caleb-free/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl text-white hover:text-yellow-500"><FontAwesomeIcon icon={faLinkedin}/></a>
-        <a href="https://www.instagram.com/caleb_free3.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl text-white hover:text-yellow-500"><FontAwesomeIcon icon={faInstagram}/></a>
-        <a href="https://github.com/cdfree1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl text-white hover:text-yellow-500"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href="mailto:calebdfree@gmail.com" aria-label="Email" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faEnvelope} /></a>
+        <a href="https://www.linkedin.com/in/caleb-free/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faLinkedin}/></a>
+        <a href="https://www.instagram.com/caleb_free3.0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faInstagram}/></a>
+        <a href="https://github.com/cdfree1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faGithub} /></a>
         </div>
       </div>
       </div>
