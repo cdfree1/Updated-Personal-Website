@@ -52,7 +52,7 @@ export default function Home() {
         <img src="headshot.jpg" alt="Caleb Free" className="w-72 h-72 rounded-full object-cover border-2 border-white mx-auto"/>
       </header>
       <div>
-        <p className="text-white text-2xl mb-8">
+        <p className="text-2xl mb-8">
         Hi I'm <span className="text-yellow-500">Caleb</span>, a computer science student at the University of North Carolina Chapel Hill. On this page, 
         you can check out the work I've done, feel free to reach out to me through the sources below.
         </p>
