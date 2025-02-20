@@ -57,7 +57,7 @@ export default function Home() {
         you can check out the work I've done, feel free to reach out to me through the sources below.
         </p>
       </div>
-      <div id="contact" className="py-24 px-5 text-white">
+      <div id="contact" className="py-24 px-5 text-black dark:text-white">
         <h2 className="text-2xl mb-4 text-center">Contact Me</h2>
         <div className="flex justify-center gap-5 mt-5">
         <a href="mailto:calebdfree@gmail.com" aria-label="Email" className="text-2xl hover:text-yellow-500"><FontAwesomeIcon icon={faEnvelope} /></a>
